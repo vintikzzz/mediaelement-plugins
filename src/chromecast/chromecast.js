@@ -225,11 +225,6 @@ Object.assign(MediaElementPlayer.prototype, {
 			}
 			button.style.display = '';
 		}
-
-		setTimeout(() => {
-			t.setPlayerSize(t.width, t.height);
-			t.setControlsSize();
-		}, 0);
 	},
 
 	/**
